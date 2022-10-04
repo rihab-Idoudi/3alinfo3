@@ -11,6 +11,7 @@ public class Competence implements Serializable{
 	@Id
 	private int id;
 	//un commentaire
+	// un deuxieme commentaire
 	private String adresse;
 	@ManyToMany(mappedBy = "competences")
 	private List<Personne> lpersonnes;
